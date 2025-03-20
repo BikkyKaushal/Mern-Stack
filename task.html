@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task</title>
+</head>
+<body>
+    <a href="index.html">Home</a> &nbsp; &nbsp;
+    <a>About</a> &nbsp; &nbsp;
+    <a>Task</a>
+ 
+  <h1>List of Students</h1>
+  <hr width="510px" align="left">
+  </br>
+  <table border="2px" cellpadding="10px" cellspacing="2px">
+    <tr>
+      <td rowspan="2"> <strong>Heading</strong></td>
+      <td><Strong>Student</Strong></td>
+      <td colspan="3" align="center"><Strong>Details</Strong></td>
+    </tr>
+
+    <tr>
+      <td><Strong>Id</Strong></td>
+      <td><Strong>Name</Strong></td>
+      <td><Strong>Department</Strong></td>
+      <td><Strong>Roll Number</Strong></td>
+    </tr>
+  
+    <tr>
+      <td rowspan="5">Student List</td>
+      <td>1</td>
+      <td>Ram</td>
+      <td>Computer Science</td>
+      <td>41</td>
+    </tr>
+    
+    <tr>
+      <td>2</td>
+      <td>Shyam</td>
+      <td>Computer Science</td>
+      <td>42</td>
+    </tr>
+
+    <tr>
+      <td>3</td>
+      <td>Hari</td>
+      <td>Computer Science</td>
+      <td>43</td>
+    </tr>
+
+    <tr>
+      <td>4</td>
+      <td>Gopal</td>
+      <td>Computer Science</td>
+      <td>44</td>
+    </tr>
+
+    <tr>
+      <td>5</td>
+      <td>Krishna</td>
+      <td>Computer Science</td>
+      <td>45</td>
+    </tr>
+
+  </table>
+</br>
+</br>
+</br>
+
+
+  <fieldset style="width:450px">
+    <legend><strong>Please complete the form below to download your free guide.</strong></legend>
+    <form action="mailto:bikkykaushal1993@gmail.com" method="post" enctype="text/plain">
+    <p align="center"><em>Field marked with</em> <Strong>(*)</Strong><em> are required</em></p>
+    <hr>
+
+    <!-- Personal information section -->
+    <Fieldset>
+    <legend>Personal Information</legend> 
+    <p>
+      <Label align="right"><Strong>First Name*:</Strong></Label>
+      <Input id="firstname" type="text" placeholder="Enter your first name" size="40px" style="float: right" required name="q">
+    </p>
+
+    <p>
+      <Label><Strong>Last Name*:</Strong></Label>
+      <Input id="lastname" type="text" placeholder="Enter your last name" size="40px" style="float: right">
+    </p>
+
+    <p>
+      <label><Strong>Gender*:</Strong></label> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+      <label fo="male">Male</label>
+      <input type="radio" id="male" value="male" name="gender">
+      <label fo="female">Female</label>
+      <input type="radio" id="female" value="female" name="gender">
+    </p>
+
+    <p>
+      <Label><Strong>Email*:</Strong></Label>
+      <Input id="confirmemail" type="text" placeholder="Enter your email" style="float:right" size="40px">
+    </p>
+
+    <p>
+      <Label><Strong>Phone*:</Strong></Label>
+      <Input id="phonenumber" type="text" placeholder="Your phone number" size="40px" style="float:right">
+    </p>
+
+    <p>
+      <label><strong>Country*</strong></label> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+      <Select name="Country" id="country" Placeholder="Select country">
+        <option Value="Nepal">Nepal</option>
+        <option Value="China">China</option>
+        <option Value="India">India</option>
+        <option Value="Australia">Australia</option>
+        <option Value="USA">USA</option>
+      </Select>
+    </p>
+    </Fieldset>
+
+  </br>
+
+    <!-- Other details section -->
+    <fieldset>
+    <Legend>Other Details</Legend>
+    <p>
+      <Label><Strong>Company*:</Strong></Label>
+      <Input id="company" type="text" placeholder="Enter your company name" size="40px" style="float:right">
+    </p>
+
+    <p>
+      <Label><Strong>Job Title:</Strong></Label>
+      <Input id="jobtitle" type="text" placeholder="Enter your job title" size="40px" style="float:right">
+    </p>
+    </fieldset>
+
+  </br>
+    <Button type="submit">Submit</Button>
+
+    </form>
+  </fieldset>
+
+
+</body>
+</html>
